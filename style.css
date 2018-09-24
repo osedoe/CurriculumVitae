@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin: 1em;
+    padding: 1em;
+    width: 90vw;
+}
+
+h3 {}
+
+/* HEADER */
+header {
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+.img-container {
+    grid-column: 1 / 2;
+}
+
+.img-container img {
+    max-width: 30vw;
+    height: 70vh;
+}

@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Jose DG</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="jumbotron">
+    <section class="left jumbotron">
         <header>
             <h1>Jose Diaz Gonzalez</h1>
-            <h3>Front-End Developer</h3>
+            <h2>Front-End Developer</h2>
             <div class="social">
                 <p><a href="https://github.com/osedoe">https://github.com/osedoe</a></p>
                 <p><a href="https://jdiaz.co.uk">https://jdiaz.co.uk</a></p>
@@ -23,9 +24,10 @@
         <div class="img-container">
             <img src="img-profile.JPG" alt="">
         </div>
-    </div>
-    <section>
+    </section>
+    <section class="right">
         <div class="profile">
+            <h3>PROFILE</h3>
             <p>My name is Jose Diaz-Gonzalez and I am a 28 year old, full stack web developer based in Tenerife. In
                 2015 I moved to
                 Bristol, where I started learning the front end technologies while working as a chef. In 2017, I
@@ -34,8 +36,43 @@
                 Education Diploma in
                 Development of Web Applications, to fill the gaps of being self-taught.</p>
         </div>
-        <div class="work"></div>
-        <div class="skills"></div>
+        <div class="education">
+            <div class="job">
+                <h4>Higher Education Diploma in Development of Web Applications</h4>
+                <p>CIFP Cesar Manrique</p>
+            </div>
+            <div class="job">
+                <h4>FullStack Course</h4>
+                <p>Escuela de Organizacion Industrial</p>
+            </div>
+        </div>
+        <div class="skills">
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>NodeJS</li>
+                <li>SASS/SCSS</li>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <button type="submit" value="Submit">Say hi!</button>
+
+            </form>
+        </div>
     </section>
 </body>
 
