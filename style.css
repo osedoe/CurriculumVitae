@@ -1,15 +1,31 @@
 body {
     display: grid;
-    grid-template-columns: 3fr 5fr;
-    margin: 1em;
-    padding: 1em;
+    justify-items: center;
+    grid-template-columns: 2fr 5fr;
+    padding: 0 .2em;
+    height: 90vh;
     width: 90vw;
 }
 
-h3 {}
+.left,
+.right {
+    padding: 0 .25em;
+}
+
+h1,
+h2 {
+    color: turquoise;
+}
+
+h3 {
+    background: turquoise;
+    padding: .5em;
+    text-align: center;
+}
 
 /* HEADER */
 header {
+    background: gray;
     grid-column: 1 / 2;
     text-align: center;
 }
