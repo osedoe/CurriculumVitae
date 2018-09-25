@@ -6,76 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jose DG</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section class="left jumbotron">
-        <header>
-            <h1>Jose Diaz Gonzalez</h1>
-            <h2>Front-End Developer</h2>
-            <div class="social">
-                <p><a href="https://github.com/osedoe">https://github.com/osedoe</a></p>
-                <p><a href="https://jdiaz.co.uk">https://jdiaz.co.uk</a></p>
-                <p><a href="mailto:jose.diazg@protonmail.com">jose.diazg@protonmail.com</a></p>
-                <p><a href="tel:+34611104901">611 104 901</a></p>
-            </div>
-        </header>
-        <div class="img-container">
-            <img src="img-profile.JPG" alt="">
-        </div>
-    </section>
-    <section class="right">
-        <div class="profile">
-            <h3>PROFILE</h3>
-            <p>My name is Jose Diaz-Gonzalez and I am a 28 year old, full stack web developer based in Tenerife. In
-                2015 I moved to
-                Bristol, where I started learning the front end technologies while working as a chef. In 2017, I
-                decided to make a move
-                towards working professionally as a developer and moved back to Spain where I’m doing a Higher
-                Education Diploma in
-                Development of Web Applications, to fill the gaps of being self-taught.</p>
-        </div>
-        <div class="education">
-            <h3>EDUCATION</h3>
-            <div class="job">
-                <h4>Higher Education Diploma in Development of Web Applications</h4>
-                <p>CIFP Cesar Manrique</p>
-            </div>
-            <div class="job">
-                <h4>FullStack Course</h4>
-                <p>Escuela de Organizacion Industrial</p>
-            </div>
-        </div>
-        <div class="skills">
-            <H3>SKILLS</H3>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>NodeJS</li>
-                <li>SASS/SCSS</li>
-                <li>Java</li>
-                <li>MySQL</li>
-                <li>Git</li>
-            </ul>
-        </div>
-        <div class="container">
-            <form action="action_page.php">
+    <div class="container">
+        <div class="row">
+            <section class="left col-md-4">
+                <header class="p-1 bg-info text-white text-center">
+                    <h1 class="">Jose Diaz Gonzalez</h1>
+                    <h2>Front-End Developer</h2>
+                    <div class="social">
+                        <p><a class="text-dark" href=" https://github.com/osedoe">https://github.com/osedoe </a> </p>
+                        <p><a class="text-dark" href=" https://jdiaz.co.uk">https://jdiaz.co.uk </a> </p>
+                        <p><a class="text-dark" href=" mailto:jose.diazg@protonmail.com">jose.diazg@protonmail.com</a></p>
+                        <p><a class="text-dark" href=" tel:+34611104901">611 104 901</a></p>
+                    </div>
+                </header>
+                <div class="img-container">
+                    <img src="img-profile.JPG" alt="" class="img-fluid">
+                </div>
+            </section>
+            <section class="col-md-8 right">
+                <div class="profile m-2">
+                    <h3 class="bg-info text-center p-1">PROFILE</h3>
+                    <p class="text-justify m-1">My name is Jose Diaz-Gonzalez and I am a 28 year old, full stack web
+                        developer based in
+                        Tenerife. In
+                        2015 I moved to
+                        Bristol, where I started learning the front end technologies while working as a chef. In 2017,
+                        I
+                        decided to make a move
+                        towards working professionally as a developer and moved back to Spain where I’m doing a Higher
+                        Education Diploma in
+                        Development of Web Applications, to fill the gaps of being self-taught.</p>
+                </div>
+                <div class="education m-2">
+                    <h3 class="bg-info text-center p-1">EDUCATION</h3>
+                    <div class="job">
+                        <h4>Higher Education Diploma in Development of Web Applications</h4>
+                        <p>CIFP Cesar Manrique</p>
+                    </div>
+                    <div class="job">
+                        <h4>FullStack Course</h4>
+                        <p>Escuela de Organizacion Industrial</p>
+                    </div>
+                </div>
+                <div class="skills m-2">
+                    <h3 class="bg-info text-center p-1">SKILLS</h3>
+                    <ul class="breadcrumb bg-white m-2">
+                        <li class="breadcrumb-item">HTML</li>
+                        <li class="breadcrumb-item">CSS</li>
+                        <li class="breadcrumb-item">JavaScript</li>
+                        <li class="breadcrumb-item">Java</li>
+                        <li class="breadcrumb-item">PHP</li>
+                        <li class="breadcrumb-item">SASS/SCSS</li>
+                        <li class="breadcrumb-item">PostCSS</li>
+                        <li class="breadcrumb-item">Bootstrap</li>
+                        <li class="breadcrumb-item">NodeJS</li>
+                        <li class="breadcrumb-item">ReactJS</li>
+                        <li class="breadcrumb-item">VueJS</li>
+                        <li class="breadcrumb-item">Docker</li>
+                        <li class="breadcrumb-item">MySQL</li>
+                        <li class="breadcrumb-item">MariaDB</li>
+                        <li class="breadcrumb-item">MongoDB</li>
+                        <li class="breadcrumb-item">Git</li>
+                    </ul>
+                </div>
+                <!-- <div class="container">
+                    <form action="action_page.php">
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-                <button type="submit" value="Submit">Say hi!</button>
+                        <button type="submit" value="Submit">Say hi!</button>
 
-            </form>
+                    </form>
+                </div> -->
+            </section>
         </div>
-    </section>
+    </div>
 </body>
 
 </html>

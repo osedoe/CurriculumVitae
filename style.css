@@ -1,4 +1,4 @@
-body {
+/* body {
     display: grid;
     justify-items: center;
     grid-template-columns: 2fr 5fr;
@@ -23,7 +23,6 @@ h3 {
     text-align: center;
 }
 
-/* HEADER */
 header {
     background: gray;
     grid-column: 1 / 2;
@@ -37,4 +36,4 @@ header {
 .img-container img {
     max-width: 30vw;
     height: 70vh;
-}
+} */
